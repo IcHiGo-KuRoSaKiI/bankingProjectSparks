@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ body{
+	 /* background-color:#ffffff; */
+	 background-image:url("https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdGl2ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+	 background-size:cover;
+ 	background-position:center;
+	width:100%;
+	height:100vh;
+	margin-top:0;
+	
+}
+
+.nav-links{
+	background-color:#81a5e7;	
+    height:3em;
+	align-items:center;
+ }
+ul{
+	display:flex;
+	justify-content:flex-start;
+	
+}
+li{
+	list-style:none;
+	padding:2px;
+}
+li a{
+	
+	color:white;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:20px;
+	
+}
+.link{
+	color:black;
+	font-size:20px;
+	padding:5px;
+	margin-left:90px;
+	font-family:'Open Sans', sans-serif;
+	/* padding-bottom:2px;
+	margin:10px; */
+}
+.about{
+	color:black;
+	font-size:20px;
+	padding:5px;
+	margin-left:45px;
+	text-align-last: left;
+	font-family:'Open Sans', sans-serif;
+}
+
+
+
+
+/* home page */
+
+.content{
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	padding-top:200px;
+	
+	
+}
+.heading{
+	font-family:'Oswald', sans-serif;
+	font-weight:30px;
+	color:rgb(251, 252, 255);
+	font-size:80px;
+	/* background-color:rgb(152, 182, 236); */
+}
+.brand{
+	color:rgb(241, 234, 234);
+	font-size:20px;
+	padding:2px;
+	/* background-color: #916ad8; */
+	margin-left:20em;
+	font-size:20px;
+	font-family:'Open Sans', sans-serif;
+}
+.main-content{
+	font-family:'Benne', serif;
+	font-size:30px;
+	color:rgb(245, 246, 247);
+	/* background-color:rgb(152, 182, 236); */
+}
+.about-content{
+	font-family:'Open Sans', sans-serif;
+	font-size:30px;
+	color:rgb(233, 206, 83);
+	text-align:center;
+	
+
+}
+.submit{
+	padding:7px 8px;
+	color:rgb(5, 5, 5);
+	background-color:#916ad8;
+	font-family:'Benne', serif;
+	font-size:20px;
+	border:none;
+}
+.submit:hover{
+	background-color:#2d80d2;
+}
+
+/* customerlist */
+.view-header{
+	text-align:center;
+	padding:10px;
+	margin:0;
+	font-family:'Open Sans', sans-serif;
+	background-color:rgb(245, 234, 89)
+}
+table{
+	
+
+	margin:100;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	background-color: rgb(245, 234, 89);
+	
+}
+.header1 th{
+	background-color:#5c92e4;
+	font-family:'Work Sans', sans-serif;
+	padding:20px;
+	text-align:center;
+	font-family:'Open Sans', sans-serif
+}
+.header2 td{
+	padding:20px;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	font-family:'Open Sans', sans-serif
+}
+.select-btn{
+	padding:10px;
+	background-color:#0099ff;
+	border-radius:5px;
+	border:none;
+}
+.select-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.select-btn:hover {
+    background-color: #F2AF29;
+}
+
+/* transfer */
+.transfer-header{
+	padding:5px;
+	text-align:center;
+	margin:0;
+	background-color:#ffffff;
+   font-family:'Work Sans', sans-serif;
+	font-size:20px;
+}
+.transfer-btn{
+	padding:10px;
+	background-color:#1ac6ff;
+	border:none;
+}
+.transfer-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/* form */
+.box-container{
+	background-color:#7a5858;
+	margin-left:400px;
+	margin-right:500px;
+	margin-top:400px;
+	
+	padding:25px;
+	display:block;
+}
+.form-body1{
+	font-size:15px;
+	font-family:'Noto Serif', serif;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.transfer1 {
+	margin-top:7px;
+	color:#ff4dff;
+	font-weight:bold;
+}
+.form{
+	margin-top:5px;
+	text-align:center;
+	padding:2px;
+}
+.form label{
+	font-size:17px;
+	font-family:'Noto Serif', serif;
+}
+.form input{
+	padding:3px;
+	margin:5px;
+	font-size:20px;
+}
+.transfer2-btn{
+	 margin:0;
+	align-items:center;
+    text-transform: uppercase;
+    padding : 0.2rem;
+    background-color: #d7263d;
+    color: whitesmoke;
+}
+.transfer2-btn:hover{
+	background-color:#39ac73;
+}
+/* history */
+.history-header{
+	background-color:#9ceb7d;
+	font-size:15px;
+	margin:0;
+	padding:7px;
+	text-align:center;
+	font-family:'Open Sans', sans-serif
+}
+.copyright{
+	font-family:'Oswald', sans-serif;
+	font-weight:30px;
+	text-align: center;
+	margin-top: 6em;
+	color:rgb(12, 12, 12);
+	font-size:20px;
+	background-color: brown
+	
+	
+	
+
+}
+
+
+
